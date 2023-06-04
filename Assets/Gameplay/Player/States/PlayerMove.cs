@@ -4,6 +4,7 @@ using Zenject;
 
 public class PlayerMove : State
 {
+    [SerializeField] private Animator animator;
     [SerializeField] private NavMeshAgent agent;
 
     private EnemySpawner _enemySpawner;
@@ -16,6 +17,7 @@ public class PlayerMove : State
     
     public override void EnterState()
     {
+        animator.SetBool("Walking", true);
         agent.enabled = true;
     }
 
@@ -26,6 +28,7 @@ public class PlayerMove : State
 
     public override void ExitState()
     {
+        animator.SetBool("Walking", false);
         agent.enabled = false;
     }
 }

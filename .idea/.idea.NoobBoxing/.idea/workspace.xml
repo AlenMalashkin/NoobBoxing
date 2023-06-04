@@ -1,61 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b62b6cd-f2af-4dbe-aee8-c5838c4ae6f6" name="Default Changelist" comment="" />
+    <list default="true" id="1b62b6cd-f2af-4dbe-aee8-c5838c4ae6f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoobBoxing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Butotn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Butotn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyLifebar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyLifebar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyDie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyDie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Game/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Game/GameInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Main/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Main/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Main/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Main/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerLifebar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerLifebar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerDie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerDie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Infrastructure/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Infrastructure/Storage/Storage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Gym/Gym.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Gym/Gym.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Boosts/BuyBoost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Boosts/BuyBoost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Reward/Reward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Reward/Reward.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Metagameplay/Shop/Shop.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Temp/Tester.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Temp/Tester.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/ViewingAds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/ViewingAds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Temp/Tester.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Player/PlayerLifebar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Player/PlayerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/Installers/GymInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/Observers/IStatObserver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Game/GameInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/AfterFight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/Installers/GymInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/ChangeScneeButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Startup/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyCelebrateState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sound/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerCelebrateState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Player/PlayerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Gameplay/Player/PlayerLifebar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Infrastructure/Installers/InfrastructureInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Infrastructure/Storage/StoreDataType.cs" />
         <option value="$PROJECT_DIR$/Assets/Temp/Tester.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StrengthUpgradeButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/Gym.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatType.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/Observers/IStatObserver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/Installers/GymInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/GuardUpgradeButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/AttackSpeedUpgradeButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Infrastructure/Bank/Bank.cs" />
-        <option value="$PROJECT_DIR$/Assets/Infrastructure/Storage/Storage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Shop/Boosts/BuyBoost.cs" />
         <option value="$PROJECT_DIR$/Assets/Metagameplay/Shop/Money/DisplayMoneyCount.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Shop/Reward/Reward.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Game/GameInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemySpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerDie.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyDie.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyLifebar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/AfterFight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Butotn.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/ChangeScneeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Game/GameInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Infrastructure/Storage/Storage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsUpgrade/StatUpgradeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/Boosts/Boost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatsDisplay/DisplayStatAmount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Gym/StatType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Shop/Boosts/BuyBoost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/EnemyLifebar.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Player/PlayerLifebar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Statemachine/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerCelebrateState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyCelebrateState.cs" />
         <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Enemy/States/EnemyDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/States/PlayerDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Metagameplay/Shop/Reward/Reward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gameplay/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sound/VolumeSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sound/AudioListenerEnnabler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sound/AudioListenEnnabler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sound/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Infrastructure/Installers/InfrastructureInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/ViewingAds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Startup/Startup.cs" />
       </list>
     </option>
   </component>
@@ -106,18 +186,40 @@
       <workItem from="1684523137097" duration="4139000" />
       <workItem from="1684696421852" duration="6429000" />
       <workItem from="1684782249040" duration="3768000" />
+      <workItem from="1685043251846" duration="3249000" />
+      <workItem from="1685087178539" duration="3604000" />
+      <workItem from="1685449189284" duration="2964000" />
+      <workItem from="1685479865378" duration="603000" />
+      <workItem from="1685517261343" duration="3219000" />
+      <workItem from="1685532668796" duration="640000" />
+      <workItem from="1685563032098" duration="1416000" />
+      <workItem from="1685614415388" duration="1211000" />
+      <workItem from="1685643370676" duration="2974000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1684697852609">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="635" y="207" key="RiderGenerateDialog" timestamp="1685452679367">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
+    <state x="635" y="207" key="RiderGenerateDialog/0.0.1536.912@0.0.1536.912" timestamp="1685452679367" />
     <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1684697852609" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1684169325574">
       <screen x="0" y="0" width="1920" height="1040" />

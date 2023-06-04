@@ -13,7 +13,6 @@ public class DisplayStatAmount : MonoBehaviour, IStatObserver
     private Dictionary<StatType, string> statSavePathesMap = new Dictionary<StatType, string>()
     {
 	    {StatType.Strenghth, Storage.strength},
-	    {StatType.AttackSpeed, Storage.attackSpeed},
 	    {StatType.Guard, Storage.guard}
     };
 

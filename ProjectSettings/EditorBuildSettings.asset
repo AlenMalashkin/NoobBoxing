@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Startup/Startup.unity
+    guid: 8a073e14bf9fd3344a400c842bc80fb3
+  - enabled: 1
+    path: Assets/UI/Menu.unity
+    guid: e2b6549aba64d0e4fa14588c7eeb757c
+  - enabled: 1
+    path: Assets/Gameplay/Main.unity
+    guid: 6b47760794a0deb4294bd11ae1825fe3
+  - enabled: 1
+    path: Assets/Metagameplay/Gym/Gym.unity
+    guid: 896886cf80e305b49a4bde16558300bb
+  - enabled: 1
+    path: Assets/Metagameplay/Shop/Shop.unity
+    guid: 14bafba62e7231445bd93f610dbbaa36
   m_configObjects: {}

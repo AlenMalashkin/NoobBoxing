@@ -24,11 +24,11 @@ public class PlayerLifebar : MonoBehaviour
 
     private void OnDisable()
     {
-        _playerSpawner.Player.GetComponent<PlayerHealth>().OnHealthChangedEvent -= HealthChanged;
+        //_playerSpawner.Player.GetComponent<PlayerHealth>().OnHealthChangedEvent -= HealthChanged;
     }
 
     private void HealthChanged(int health)
     {
-        filler.fillAmount = (float) health / (5 + (int)_storage.Load(Storage.guard, StoreDataType.Int, 0));
+        filler.fillAmount = (float) health / (100 + (int)_storage.Load(Storage.guard, StoreDataType.Int, 0));
     }
 }

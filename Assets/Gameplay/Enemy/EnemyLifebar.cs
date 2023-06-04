@@ -6,26 +6,28 @@ public class EnemyLifebar : MonoBehaviour
 {
     [SerializeField] private Image filler;
         
-        private EnemySpawner _enemySpawner;
-        
-        [Inject]
-        private void Construct(EnemySpawner spawner)
-        {
-            _enemySpawner = spawner;
-        }
+    private EnemySpawner _enemySpawner;
+    private Storage _storage;    
     
-        private void Start()
-        {
-            _enemySpawner.Enemy.GetComponent<EnemyHealth>().OnHealthChangedEvent += HealthChanged;
-        }
+    [Inject]
+    private void Construct(EnemySpawner spawner, Storage storage)
+    {
+        _enemySpawner = spawner;
+        _storage = storage;
+    }
     
-        private void OnDisable()
-        {
-            _enemySpawner.Enemy.GetComponent<EnemyHealth>().OnHealthChangedEvent -= HealthChanged;
-        }
+    private void Start()
+    {
+        _enemySpawner.Enemy.GetComponent<EnemyHealth>().OnHealthChangedEvent += HealthChanged;
+    }
     
-        private void HealthChanged(int health)
-        {
-            filler.fillAmount = (float) health / 5;
-        }
+    private void OnDisable()
+    {
+        //_enemySpawner.Enemy.GetComponent<EnemyHealth>().OnHealthChangedEvent -= HealthChanged;
+    }
+    
+    private void HealthChanged(int health)
+    {
+        filler.fillAmount = (float) health / (100 + (int)_storage.Load(Storage.round, StoreDataType.Int, 0) * 20);
+    }
 }

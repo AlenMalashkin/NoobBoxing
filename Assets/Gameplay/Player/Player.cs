@@ -12,13 +12,20 @@ public class Player : MonoBehaviour
 	[SerializeField] private PlayerMove playerMove;
 	[SerializeField] private PlayerAttack playerAttack;
 	[SerializeField] private PlayerDie playerDie;
+	[SerializeField] private PlayerCelebrateState playerCelebrate;
 
+	private Bank _bank;
+	private Storage _storage;
+	private AfterFight _afterFight;
 	private Enemy _enemy;
 
 	[Inject]
-	private void Construct(EnemySpawner spawner)
+	private void Construct(EnemySpawner spawner, Storage storage, AfterFight afterFight, Bank bank)
 	{
 		_enemy = spawner.Enemy;
+		_storage = storage;
+		_afterFight = afterFight;
+		_bank = bank;
 	}
 
 	private void Start()
@@ -54,7 +61,20 @@ public class Player : MonoBehaviour
 
 	private void OnEnemyDied()
 	{
-		Debug.Log("Player Wins");
+		stateMachine.ChangeState(playerCelebrate);
+		
+		_afterFight.SetMessage("Вы выиграли");
+		
+		_storage.Save(Storage.round, (int)_storage.Load(Storage.round, StoreDataType.Int, 1) + 1);
+		
+		_afterFight.SetCurrentWave("Раунд: " + ((int)_storage.Load(Storage.round, StoreDataType.Int, 1) - 1));
+
+		int reward = (int) _storage.Load(Storage.round, StoreDataType.Int, 1) * 500;
+		_bank.GetMoney(reward);
+		
+		_afterFight.SetReward("Награда: " + reward);
+		_afterFight.EnablePanel();
+		
 		_enemy.OnEnemyDiedEevnt -= OnEnemyDied;
 	}
 }    

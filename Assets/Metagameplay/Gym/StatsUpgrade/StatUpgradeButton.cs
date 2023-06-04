@@ -14,7 +14,7 @@ public class StatUpgradeButton : MonoBehaviour
     private int _targetTapsToUpgrade;
     private int _currentTapsToUpgrade;
     private int _statAmount;
-    private int _statIncreaseAmount = 1;
+    private int _statIncreaseAmount;
     private string _statAmountSavePath;
     private string _statProgressSavePath;
 
@@ -32,6 +32,8 @@ public class StatUpgradeButton : MonoBehaviour
 
     private void Awake()
     {
+        _statIncreaseAmount = (int)_storage.Load(Storage.round, StoreDataType.Int, 1);
+        
         SetupUpgradeButtonByType();
 
         _statAmount = (int)_storage.Load(_statAmountSavePath, StoreDataType.Int, 0);
@@ -127,10 +129,6 @@ public class StatUpgradeButton : MonoBehaviour
             case StatType.Strenghth:
                 _statAmountSavePath = Storage.strength;
                 _statProgressSavePath = Storage.strengthStatProgress;
-                break;
-            case StatType.AttackSpeed:
-                _statAmountSavePath = Storage.attackSpeed;
-                _statProgressSavePath = Storage.attackSpeedStatProgress;
                 break;
             case StatType.Guard:
                 _statAmountSavePath = Storage.guard;

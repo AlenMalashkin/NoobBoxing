@@ -55,18 +55,18 @@ namespace YG
 
         void Pause(bool pause)
         {
-            if (pauseType == PauseType.AudioPause)
+            switch (pauseType)
             {
-                AudioPause(pause);
-            }
-            else if (pauseType == PauseType.TimeScalePause)
-            {
-                TimeScalePause(pause);
-            }
-            else
-            {
-                AudioPause(pause);
-                TimeScalePause(pause);
+                case PauseType.AudioPause:
+                    AudioPause(pause);
+                    break;
+                case PauseType.TimeScalePause:
+                    TimeScalePause(pause);
+                    break;
+                case PauseType.All:
+                    AudioPause(pause);
+                    TimeScalePause(pause);
+                    break;
             }
         }
 

@@ -4,7 +4,8 @@ using Zenject;
 
 public class PlayerAttack : State
 {
-    private float _attackSpeed;
+    [SerializeField] private Animator animator;
+    
     private int _damage;
     
     private EnemyHealth _enemyHealth;
@@ -18,9 +19,8 @@ public class PlayerAttack : State
     
     public override void EnterState()
     {
-        _attackSpeed = 1 - (int) _storage.Load(Storage.attackSpeed, StoreDataType.Int, 0) * 0.01f;
-        _damage = 1 + (int) _storage.Load(Storage.strength, StoreDataType.Int, 0);
-        StartCoroutine(Attack());
+        animator.SetBool("Boxing", true);
+        _damage = 10 + (int) _storage.Load(Storage.strength, StoreDataType.Int, 0);
     }
 
     public override void UpdateState()
@@ -29,7 +29,7 @@ public class PlayerAttack : State
 
     public override void ExitState()
     {
-        StopCoroutine(Attack());
+        animator.SetBool("Boxing", false);
     }
     
     public void SetAttackTarget(EnemyHealth enemyHealth)
@@ -37,13 +37,8 @@ public class PlayerAttack : State
         _enemyHealth = enemyHealth;
     }
 
-    private IEnumerator Attack()
+    private void Attack()
     {
-        while (true)
-        { 
-            
-            yield return new WaitForSeconds(_attackSpeed);
-            _enemyHealth.TakeDamage(_damage);  
-        }
+        _enemyHealth.TakeDamage(_damage);  
     }
 }

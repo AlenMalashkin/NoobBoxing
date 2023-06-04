@@ -69,11 +69,6 @@ public class Boost : MonoBehaviour
                 _boostCount = (int)_storage.Load(Storage.strengthBoostCount, StoreDataType.Int, 0);
                 boostCountText.text = _boostCount + "";
                 break;
-            case StatType.AttackSpeed:
-                _boostCountSavePath = Storage.attackSpeedBoostCount;
-                _boostCount = (int)_storage.Load(Storage.attackSpeedBoostCount, StoreDataType.Int, 0);
-                boostCountText.text = _boostCount + "";
-                break;
             case StatType.Guard:
                 _boostCountSavePath = Storage.guardBoostCount;
                 _boostCount = (int)_storage.Load(Storage.guardBoostCount, StoreDataType.Int, 0);

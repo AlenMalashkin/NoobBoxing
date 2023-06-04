@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class EnemyDie : State
 {
+	[SerializeField] private Animator animator;
+	
 	public override void EnterState()
 	{
-		Destroy(gameObject);
+		animator.SetBool("Knoked", true);
 	}
 
 	public override void UpdateState()
@@ -15,5 +17,6 @@ public class EnemyDie : State
 
 	public override void ExitState()
 	{
+		animator.SetBool("Knoked", false);
 	}
 }

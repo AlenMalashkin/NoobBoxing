@@ -1,16 +1,26 @@
 using System.Collections;
 using UnityEngine;
+using Zenject;
 
 public class EnemyAttack : State
 {
-    private float _attackSpeed = 1f;
-    private int _damage = 5;
+    [SerializeField] private Animator animator;
+    
+    private int _damage = 1;
     
     private PlayerHealth _playerHealth;
-
+    private Storage _storage;
+    
+    [Inject]
+    private void Construct(Storage storage)
+    {
+        _storage = storage;
+    }
+    
     public override void EnterState()
     {
-        StartCoroutine(Attack());
+        animator.SetBool("Boxing", true);
+        _damage = 7 + (int) _storage.Load(Storage.round, StoreDataType.Int, 0) * 5;
     }
 
     public override void UpdateState()
@@ -19,7 +29,7 @@ public class EnemyAttack : State
 
     public override void ExitState()
     {
-        StopCoroutine(Attack());
+        animator.SetBool("Boxing", false);
     }
 
     public void SetAttackTarget(PlayerHealth playerHealth)
@@ -27,12 +37,8 @@ public class EnemyAttack : State
         _playerHealth = playerHealth;
     }
 
-    private IEnumerator Attack()
+    private void Attack()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(_attackSpeed); 
-            _playerHealth.TakeDamage(_damage);
-        }
+        _playerHealth.TakeDamage(_damage);
     }
 }

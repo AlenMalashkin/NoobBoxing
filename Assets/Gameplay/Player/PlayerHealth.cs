@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour, IHealth
 
     private void Awake()
     {
-        _currentHealth = 5 + (int)_storage.Load(Storage.guard, StoreDataType.Int, 0);
+        _currentHealth = 100 + (int)_storage.Load(Storage.guard, StoreDataType.Int, 0);
     }
 
     public void TakeDamage(int damage)

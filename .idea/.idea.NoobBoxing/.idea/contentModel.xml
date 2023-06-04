@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\gor28\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\gor28\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_NoobBoxing.-265777263.00" t="ExcludeRecursive" />
-    <e p="C:\Users\gor28\NoobBoxing" t="IncludeRecursive">
+    <e p="C:\Users\Egor\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Egor\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_NoobBoxing.-640203549.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Egor\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="D:\UnityProjects\NoobBoxing" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Butotn.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="RemoveMobileSupportWarningWebBuild.cs" t="Include" />
         </e>
         <e p="Gameplay" t="Include">
+          <e p="AfterFIght.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="Enemy.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
@@ -19,6 +20,7 @@
             <e p="EnemySpawner.cs" t="Include" />
             <e p="States" t="Include">
               <e p="EnemyAttack.cs" t="Include" />
+              <e p="EnemyCelebrateState.cs" t="Include" />
               <e p="EnemyDie.cs" t="Include" />
               <e p="EnemyMove.cs" t="Include" />
             </e>
@@ -34,6 +36,7 @@
             <e p="PlayerSpawner.cs" t="Include" />
             <e p="States" t="Include">
               <e p="PlayerAttack.cs" t="Include" />
+              <e p="PlayerCelebrateState.cs" t="Include" />
               <e p="PlayerDie.cs" t="Include" />
               <e p="PlayerMove.cs" t="Include" />
             </e>
@@ -911,8 +914,15 @@
             <e p="zenject.asmdef" t="Include" />
           </e>
         </e>
-        <e p="Temp" t="Include">
-          <e p="Tester.cs" t="Include" />
+        <e p="Sound" t="Include">
+          <e p="AudioListenEnnabler.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
+        </e>
+        <e p="Startup" t="Include">
+          <e p="Startup.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="ChangeScneeButton.cs" t="Include" />
         </e>
         <e p="YandexGame" t="Include">
           <e p="Addons" t="Include">

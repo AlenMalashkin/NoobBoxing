@@ -9,13 +9,11 @@ public class Storage
     public const string strengthBoostCount = "StrengthBoostCount";
     public const string strength = "Strength";
     
-    public const string attackSpeedStatProgress = "AttackSpeedStatProgress";
-    public const string attackSpeedBoostCount = "AttackSpeedBoostCount";
-    public const string attackSpeed = "AttackSpeed";
-    
     public const string guardStatProgress = "GuardStatProgress";
     public const string guardBoostCount = "GuardBoostCount";
     public const string guard = "Guard";
+
+    public const string round = "Round";
 
     public void Save(string key, int value)
     {

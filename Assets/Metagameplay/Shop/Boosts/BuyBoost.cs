@@ -26,6 +26,8 @@ public class BuyBoost : MonoBehaviour
     {
         SetupBoostByType();
 
+        cost *= (int) _storage.Load(Storage.round, StoreDataType.Int, 1);
+        
         costText.text = cost + "";
         
         boostCountText.text = _count + "";
@@ -60,10 +62,6 @@ public class BuyBoost : MonoBehaviour
             case StatType.Strenghth:
                 _boostCountSavePath = Storage.strengthBoostCount;
                 _count = (int)_storage.Load(Storage.strengthBoostCount, StoreDataType.Int, 0);
-                break;
-            case StatType.AttackSpeed:
-                _boostCountSavePath = Storage.attackSpeedBoostCount;
-                _count = (int)_storage.Load(Storage.attackSpeedBoostCount, StoreDataType.Int, 0);
                 break;
             case StatType.Guard:
                 _boostCountSavePath = Storage.guardBoostCount;
